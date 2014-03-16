@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Zachary\Documents\GitHub\CSE320-Project-1\project-1-zach\full_adder.ncd
+OUTFILE=C:\Users\Zachary\Documents\GitHub\CSE320-Project-1\project-1-zach\full_adder.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Zachary\Documents\GitHub\CSE320-Project-1\project-1-zach
+LICENSE=WebPack
+USER_INFO=__0_0_0
