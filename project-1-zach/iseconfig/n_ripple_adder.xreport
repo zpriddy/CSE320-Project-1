@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-03-15T17:40:01</DateModified>
+  <DateModified>2014-03-15T22:18:05</DateModified>
   <ModuleName>n_ripple_adder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/iseconfig/n_ripple_adder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach\</ImplementationReportsDirectory>
   <DateInitialized>2014-03-15T17:40:01</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

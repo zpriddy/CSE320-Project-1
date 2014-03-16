@@ -1,18 +1,19 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/n_tb_isim_beh.exe -prj C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/n_tb_beh.prj work.n_tb work.glbl 
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/carry_skip_isim_beh.exe -prj C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/carry_skip_beh.prj work.carry_skip work.glbl 
 ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
 Analyzing Verilog file "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/full_adder.v" into library work
-Analyzing Verilog file "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/n_tb.v" into library work
+Analyzing Verilog file "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/carry_skip.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module n_ripple_adder
-Compiling module n_tb
+Compiling module n_carry_skip_adder_default
+Compiling module carry_skip
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
-Built simulation executable C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/n_tb_isim_beh.exe
-Fuse Memory Usage: 25700 KB
-Fuse CPU Usage: 343 ms
+Built simulation executable C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/carry_skip_isim_beh.exe
+Fuse Memory Usage: 26244 KB
+Fuse CPU Usage: 374 ms
