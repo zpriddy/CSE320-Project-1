@@ -55,9 +55,9 @@ module n_ripple_adder(sum,c_out,a,b,c_in);
 	
 	always @(a or b or c_in) begin
 	C[0] = c_in;
-	for (k = n-1; k >= 0 ; k = k - 1) begin
+	for (k = 0; k < n ; k = k + 1) begin
 		#4 sum[k] = a[k] ^ b[k] ^ C[k];
-		#5 C[k+1] = (a[k] & b[k])|(a[k] & C[k])|(b[k] & C[k]);
+		#1 C[k+1] = (a[k] & b[k])|(a[k] & C[k])|(b[k] & C[k]);
 	end
 	c_out = C[n];
 	end

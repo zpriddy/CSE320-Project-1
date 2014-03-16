@@ -14,5 +14,5 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/n_tb_isim_beh.exe
-Fuse Memory Usage: 25680 KB
+Fuse Memory Usage: 25700 KB
 Fuse CPU Usage: 343 ms

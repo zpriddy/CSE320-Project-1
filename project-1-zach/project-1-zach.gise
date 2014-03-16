@@ -80,6 +80,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_adder_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="n_adder_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="n_adder_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="n_ripple_adder_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_ripple_adder_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_tb_beh.prj"/>
@@ -87,8 +88,8 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="n_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/full_adder_synthesis.nlf"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/full_adder_synthesis.v"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/full_adder_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/full_adder_synthesis.v"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
@@ -104,19 +105,20 @@
     </transform>
     <transform xil_pn:end_ts="1394930276" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1394930276">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1394930276" xil_pn:in_ck="8966685545047222312" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1394930276">
+    <transform xil_pn:end_ts="1394931083" xil_pn:in_ck="8966685545047222312" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1394931083">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_tb.v"/>
       <outfile xil_pn:name="n_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1394930276" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5826257657484638202" xil_pn:start_ts="1394930276">
+    <transform xil_pn:end_ts="1394930639" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5826257657484638202" xil_pn:start_ts="1394930639">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1394930276" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3084042030860747704" xil_pn:start_ts="1394930276">
+    <transform xil_pn:end_ts="1394930639" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3084042030860747704" xil_pn:start_ts="1394930639">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -124,14 +126,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1394930276" xil_pn:in_ck="8966685545047222312" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1394930276">
+    <transform xil_pn:end_ts="1394931083" xil_pn:in_ck="8966685545047222312" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1394931083">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_tb.v"/>
       <outfile xil_pn:name="n_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1394930278" xil_pn:in_ck="8966685545047222312" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7855269767984663635" xil_pn:start_ts="1394930276">
+    <transform xil_pn:end_ts="1394931085" xil_pn:in_ck="8966685545047222312" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7855269767984663635" xil_pn:start_ts="1394931083">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -143,7 +145,7 @@
       <outfile xil_pn:name="n_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1394930278" xil_pn:in_ck="-3307727583641035319" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-949881430134126410" xil_pn:start_ts="1394930278">
+    <transform xil_pn:end_ts="1394931085" xil_pn:in_ck="3990702867024738461" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-949881430134126410" xil_pn:start_ts="1394931085">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -154,6 +156,7 @@
     </transform>
     <transform xil_pn:end_ts="1394922737" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1394922737">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1394927167" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="669713381199757479" xil_pn:start_ts="1394927167">
       <status xil_pn:value="SuccessfullyRun"/>

@@ -53,7 +53,6 @@ module n_tb;
         
 		// Add stimulus here
 		#10 a=4'b1111; b=4'b1000;
-
 	end
       
 endmodule
