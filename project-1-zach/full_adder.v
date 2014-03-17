@@ -211,6 +211,62 @@ module n_carry_skip_adder(sum,c_out,a,b,c_in);
 	
 endmodule
 	
+// N BIT CSA AGAIN
+
+module n_carry_skip_adder_v2(sum,c_out,a,b,c_in);
+	parameter n = 4; //How many sets of 4 bits
+	parameter bits = 4*n;
+	integer  j, c_in0, c_in1;
+	genvar k;
+	
+	
+	
+	input [bits-1:0] a, b;
+	input c_in;
+	
+	output [bits-1:0] sum;
+	output c_out;
+	
+	reg c_out;
+	reg [bits-1:0] sum;
+	reg [bits:0] C_0, C_1, p, C;
+	reg [n:0] cs;
+	
+	reg [bits-1:0] sum_1, sum_0;
+	
+	always @(a or b or c_in) begin
+		c_in0 = 0;
+		c_in1 = 1;
+		for( j = 0 ; j < 4 ; j = j + 1) begin
+			generate for( k = 0 ; k < n ; k = k + 1) begin
+				full_adder_p (sum_0[k*4+j],C_0[k*4+j],p[k*4+j],a[k*4+j],b[k*4+j],c_in0);
+				full_adder_p (sum_1[k*4+j],C_1[k*4+j],p[k*4+j],a[k*4+j],b[k*4+j],c_in1);
+			end
+			endgenerate
+		end
+		C[0] = c_in;
+		end
+		
+		genvar g;
+		generate for( g = 0 ; g < n ; g = g + 1) begin
+			//mux_2_4(sum[4*j+3:j*4],sum_0[j*4+3:j*4],C[j*4]);
+			//mux_2_4(C[4*j+4:j*4+1],C_0[j*4+4:j*4+1],C_1[j*4+4:j*4+1],C[j*4]);
+			mux_2_1 M_0_g(sum[4*g],sum_0[4*g],sum_1[4*g],C[4*g]);
+			mux_2_1 M_1_g(sum[4*g+1],sum_0[4*g+1],sum_1[4*g+1],C[4*g]);
+			mux_2_1 M_2_g(sum[4*g+2],sum_0[4*g+2],sum_1[4*g+2],C[4*g+1]);
+			mux_2_1 M_3_g(sum[4*g+3],sum_0[4*g+3],sum_1[4*g+3],C[4*g+2]);
+			
+		end
+		endgenerate
+
+	
+	
+
+
+endmodule
+
+
+
 // Square root adder
 
 

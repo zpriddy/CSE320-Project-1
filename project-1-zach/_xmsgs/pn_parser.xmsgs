@@ -8,7 +8,16 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/csa_8_adder_tb.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/full_adder.v&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/full_adder.v</arg>&quot; Line <arg fmt="%d" index="2">241</arg>. <arg fmt="%s" index="3">Syntax error near &quot;generate&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/full_adder.v</arg>&quot; Line <arg fmt="%d" index="2">245</arg>. <arg fmt="%s" index="3">Syntax error near &quot;endgenerate&quot;.</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/z_n_rca_tb.v&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -34,10 +34,9 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="carry_skip_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="carry_skip_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="csa_4_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="csa_8_adder_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="csa_8_adder_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="csa_8_adder_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="csa_8_adder_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="csa_n_redo_tb_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="full_adder.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="full_adder.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="full_adder.bld"/>
@@ -110,6 +109,14 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="z_full_adder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="z_full_adder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="z_n_rca_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="z_n_rca_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="z_n_rca_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="z_n_rca_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="z_n_rca_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="z_setup_stx_beh.prj"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
@@ -121,25 +128,30 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1395019586" xil_pn:in_ck="6077730209885682237" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1395019586">
+    <transform xil_pn:end_ts="1395026385" xil_pn:in_ck="1605709195293298197" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1395026385">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SQUCSA_tb.v"/>
       <outfile xil_pn:name="carry_skip.v"/>
       <outfile xil_pn:name="csa_4_tb.v"/>
       <outfile xil_pn:name="csa_8_adder_tb.v"/>
+      <outfile xil_pn:name="csa_n_redo_tb.v"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_tb.v"/>
       <outfile xil_pn:name="mux_2_1_tb.v"/>
       <outfile xil_pn:name="mux_2_4_tb.v"/>
       <outfile xil_pn:name="n_carry_skip_tb.v"/>
       <outfile xil_pn:name="n_tb.v"/>
+      <outfile xil_pn:name="z_full_adder.v"/>
+      <outfile xil_pn:name="z_n_rca.v"/>
+      <outfile xil_pn:name="z_n_rca_tb.v"/>
+      <outfile xil_pn:name="z_setup.v"/>
     </transform>
-    <transform xil_pn:end_ts="1395019228" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1648670982138427239" xil_pn:start_ts="1395019228">
+    <transform xil_pn:end_ts="1395026326" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1786344076283805832" xil_pn:start_ts="1395026326">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1395019228" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1428856367331462569" xil_pn:start_ts="1395019228">
+    <transform xil_pn:end_ts="1395026326" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8175022087392516026" xil_pn:start_ts="1395026326">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -147,36 +159,41 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1395019593" xil_pn:in_ck="6077730209885682237" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1395019593">
+    <transform xil_pn:end_ts="1395026385" xil_pn:in_ck="1605709195293298197" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1395026385">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="SQUCSA_tb.v"/>
       <outfile xil_pn:name="carry_skip.v"/>
       <outfile xil_pn:name="csa_4_tb.v"/>
       <outfile xil_pn:name="csa_8_adder_tb.v"/>
+      <outfile xil_pn:name="csa_n_redo_tb.v"/>
       <outfile xil_pn:name="full_adder.v"/>
       <outfile xil_pn:name="full_adder_tb.v"/>
       <outfile xil_pn:name="mux_2_1_tb.v"/>
       <outfile xil_pn:name="mux_2_4_tb.v"/>
       <outfile xil_pn:name="n_carry_skip_tb.v"/>
       <outfile xil_pn:name="n_tb.v"/>
+      <outfile xil_pn:name="z_full_adder.v"/>
+      <outfile xil_pn:name="z_n_rca.v"/>
+      <outfile xil_pn:name="z_n_rca_tb.v"/>
+      <outfile xil_pn:name="z_setup.v"/>
     </transform>
-    <transform xil_pn:end_ts="1395019594" xil_pn:in_ck="6077730209885682237" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5307437935819996047" xil_pn:start_ts="1395019593">
+    <transform xil_pn:end_ts="1395026386" xil_pn:in_ck="1605709195293298197" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4305598629018033937" xil_pn:start_ts="1395026385">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="csa_8_adder_tb_beh.prj"/>
-      <outfile xil_pn:name="csa_8_adder_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
+      <outfile xil_pn:name="z_n_rca_tb_beh.prj"/>
+      <outfile xil_pn:name="z_n_rca_tb_isim_beh.exe"/>
     </transform>
-    <transform xil_pn:end_ts="1395019594" xil_pn:in_ck="4110839921027902609" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7053890197676679924" xil_pn:start_ts="1395019594">
+    <transform xil_pn:end_ts="1395026386" xil_pn:in_ck="5627860652526054838" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2742599020922094930" xil_pn:start_ts="1395026386">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="csa_8_adder_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="z_n_rca_tb_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1394922737" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1394922737">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -219,6 +236,7 @@
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>

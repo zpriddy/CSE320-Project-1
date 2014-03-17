@@ -1,0 +1,28 @@
+Command line:
+   z_n_rca_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49962
+
+Sun Mar 16 20:19:48 2014
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 354.574 Meg
+
+ Total Signals          : 59
+ Total Nets             : 40
+ Total Signal Drivers   : 26
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 28
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 193
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 354.574 Meg
+
+Sun Mar 16 20:21:57 2014
+
