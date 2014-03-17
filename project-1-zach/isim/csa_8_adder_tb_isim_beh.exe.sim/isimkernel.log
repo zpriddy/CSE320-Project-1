@@ -2,27 +2,27 @@ Command line:
    csa_8_adder_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  63825
+     -socket  64241
 
-Sun Mar 16 17:52:33 2014
+Sun Mar 16 18:26:36 2014
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 350.536 Meg
+ Current Memory Usage: 354.542 Meg
 
- Total Signals          : 250
- Total Nets             : 122
- Total Signal Drivers   : 98
- Total Blocks           : 33
- Total Primitive Blocks : 25
- Total Processes        : 84
+ Total Signals          : 266
+ Total Nets             : 130
+ Total Signal Drivers   : 107
+ Total Blocks           : 35
+ Total Primitive Blocks : 27
+ Total Processes        : 93
  Total Traceable Variables  : 21
- Total Scalar Nets and Variables : 219
+ Total Scalar Nets and Variables : 227
 
- Total Simulation Time: 0.03125 sec
+ Total Simulation Time: 0.046875 sec
 
- Current Memory Usage: 350.536 Meg
+ Current Memory Usage: 669.131 Meg
 
-Sun Mar 16 17:52:57 2014
+Sun Mar 16 18:27:25 2014
 

@@ -16,8 +16,7 @@ Compiling module csa_8_bit
 Compiling module csa_8_adder_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 7 Verilog Units
 Built simulation executable C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/csa_8_adder_tb_isim_beh.exe
-Fuse Memory Usage: 25756 KB
-Fuse CPU Usage: 374 ms
+Fuse Memory Usage: 25872 KB
+Fuse CPU Usage: 343 ms

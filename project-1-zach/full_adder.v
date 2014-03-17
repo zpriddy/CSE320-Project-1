@@ -129,7 +129,7 @@ module csa_8_bit(sum,c_out,p,a,b,c_in);
 	
 	wire [7:0] sum_0, sum_1;
 
-	wire c00, c01, c10, c11, c_in0, c_in1;
+	wire c00, c01, c10, c11, c_in0, c_in1,c0,c1;
 	assign c_in1 = 1;
 	assign c_in0 = 0;
 	wire p00, p01, p10, p11;
@@ -141,8 +141,11 @@ module csa_8_bit(sum,c_out,p,a,b,c_in);
 	csa_4_bit CSA411(sum_1[7:4],c11,p11,a[7:4],b[7:4],c_in1);
 	
 	mux_2_4 MUX1(sum[3:0],sum_0[3:0],sum_1[3:0],c_in);
-	mux_2_4 MUX2(sum[7:4],sum_0[7:4],sum_1[7:4],c_in);
+	mux_2_1 MUX1A(c0,c00,c01,c_in);
+	mux_2_4 MUX2(sum[7:4],sum_0[7:4],sum_1[7:4],c0);
+	mux_2_1 MUX2A(c1,c10,c11,c0);
 	
+	assign c_out = c1;
 	
 	
 endmodule

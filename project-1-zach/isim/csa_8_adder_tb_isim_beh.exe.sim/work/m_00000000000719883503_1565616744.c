@@ -23,8 +23,8 @@
 #endif
 static const char *ng0 = "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/csa_8_adder_tb.v";
 static int ng1[] = {0, 0};
-static int ng2[] = {1, 0};
-static unsigned int ng3[] = {255U, 0U};
+static unsigned int ng2[] = {255U, 0U};
+static unsigned int ng3[] = {0U, 0U};
 
 
 
@@ -53,7 +53,7 @@ LAB4:    xsi_set_current_line(49, ng0);
     t3 = (t0 + 1928);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 8);
     xsi_set_current_line(51, ng0);
-    t2 = ((char*)((ng2)));
+    t2 = ((char*)((ng1)));
     t3 = (t0 + 2088);
     xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
     xsi_set_current_line(54, ng0);
@@ -69,7 +69,7 @@ LAB5:    xsi_set_current_line(57, ng0);
     goto LAB1;
 
 LAB6:    xsi_set_current_line(57, ng0);
-    t3 = ((char*)((ng3)));
+    t3 = ((char*)((ng2)));
     t4 = (t0 + 1768);
     xsi_vlogvar_assign_value(t4, t3, 0, 0, 8);
     xsi_set_current_line(57, ng0);

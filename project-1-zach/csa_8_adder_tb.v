@@ -48,13 +48,13 @@ module csa_8_adder_tb;
 		// Initialize Inputs
 		a = 0;
 		b = 0;
-		c_in = 1;
+		c_in = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
         
 		// Add stimulus here
-		#10 a=8'b11111111;b=8'b11111111;
+		#10 a=8'b11111111;b=8'b00000000;
 
 	end
       
