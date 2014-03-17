@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\Zachary\Documents\GitHub\CSE320-Project-1\project-1-zach\carry_skip_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/carry_skip_isim_beh.wdb 
+Running: C:\Users\Zachary\Documents\GitHub\CSE320-Project-1\project-1-zach\csa_8_adder_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/project-1-zach/csa_8_adder_tb_isim_beh.wdb 
 ISim P.28xd (signature 0xa0883be4)
 This is a Full version of ISim.
 Time resolution is 1 ps
