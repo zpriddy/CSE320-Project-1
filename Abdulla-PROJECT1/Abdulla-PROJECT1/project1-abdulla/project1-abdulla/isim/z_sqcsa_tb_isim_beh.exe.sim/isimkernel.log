@@ -1,0 +1,28 @@
+Command line:
+   z_sqcsa_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54951
+
+Tue Mar 18 00:41:55 2014
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 379.65 Meg
+
+ Total Signals          : 5932
+ Total Nets             : 12586
+ Total Signal Drivers   : 2740
+ Total Blocks           : 693
+ Total Primitive Blocks : 541
+ Total Processes        : 2742
+ Total Traceable Variables  : 70
+ Total Scalar Nets and Variables : 14505
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 536.945 Meg
+
+Tue Mar 18 00:43:36 2014
+

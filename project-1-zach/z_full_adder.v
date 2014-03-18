@@ -20,11 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 module z_full_adder(sum,c_out,gen,prop,c_in);
 
+
+	parameter D = 2;
 	input gen,prop,c_in;
 	output sum, c_out;
 	
-	assign #2 sum = prop ^ c_in;
-	assign #1 c_out = gen | (prop & c_in);
+
 	
+	//assign #2 {sum} = prop ^ c_in;
+	//assign #1 c_out = gen | (prop & c_in);
+	wire #D sum = prop ^ c_in;
+	wire #D c_out = gen | (prop & c_in);
 
 endmodule

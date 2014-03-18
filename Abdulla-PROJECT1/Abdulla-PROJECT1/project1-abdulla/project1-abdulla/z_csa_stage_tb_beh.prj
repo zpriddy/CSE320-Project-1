@@ -1,0 +1,4 @@
+verilog work "a_full_adder.v"
+verilog work "z_csa_stage.v"
+verilog work "z_csa_stage_tb.v"
+verilog work "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

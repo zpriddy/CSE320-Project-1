@@ -23,8 +23,18 @@ module z_setup(prop, gen, a, b);
 	input a, b;
 	output prop, gen;
 	
-	assign #2 prop = a ^ b;
-	assign #1 gen = a & b;
+	parameter D = 4;
+	
+	reg prop, gen;
 
+	always @(a or b) begin
+		#2 prop = a ^ b;
+		#2 gen = a & b;
+	end
+	//assign prop = a ^ b;
+	//assign gen = a & b;
+
+	//assign prop = prop_r;
+	//assign gen = gen_r;
 
 endmodule

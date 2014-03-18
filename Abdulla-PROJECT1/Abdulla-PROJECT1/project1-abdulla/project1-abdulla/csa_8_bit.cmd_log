@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/project1-abdulla/csa_8_bit.xst" -ofn "C:/Xilinx/project1-abdulla/csa_8_bit.syr" 

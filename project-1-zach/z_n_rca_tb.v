@@ -24,7 +24,7 @@
 
 module z_n_rca_tb;
 	parameter n = 4;
-
+	parameter D = 0;
 	// Inputs
 	reg [3:0] a;
 	reg [3:0] b;
@@ -36,7 +36,7 @@ module z_n_rca_tb;
 
 	// Instantiate the Unit Under Test (UUT)
 	z_n_rca uut (
-		.sum(sum), 
+	   .sum(sum), 
 		.c_out(c_out), 
 		.a(a), 
 		.b(b), 

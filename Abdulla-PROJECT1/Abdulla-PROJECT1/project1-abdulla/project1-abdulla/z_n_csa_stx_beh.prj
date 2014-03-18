@@ -1,0 +1,6 @@
+verilog isim_temp "z_2_1_mux.v"
+verilog isim_temp "a_full_adder.v"
+verilog isim_temp "z_csa_stage.v"
+verilog isim_temp "z_m_sca_stage.v"
+verilog isim_temp "z_n_csa.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"
