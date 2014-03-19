@@ -20,6 +20,291 @@ WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal 
 WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 700 ns : File "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb.v" Line 49
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 700 ns : File "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb.v" Line 49
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 700 ns : File "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb.v" Line 49
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[8].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[8].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[8].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[8].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[9].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[9].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[4].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[5].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[6].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[7].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[8].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[8].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[9].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[9].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[10].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[10].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 700 ns : File "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb.v" Line 49
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[1].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[2].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+WARNING:  For instance \[3].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance \[0].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance \[0].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance \[1].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
@@ -272,9 +557,6 @@ WARNING:  For instance \[14].CSA /FA1/, width 1 of formal port c_in is not equal
 WARNING:  For instance \[14].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance \[15].CSA /FA1/, width 1 of formal port c_in is not equal to width 32 of actual constant.
 WARNING:  For instance \[15].CSA /FA2/, width 1 of formal port c_in is not equal to width 32 of actual constant.
-Time resolution is 1 ps
-# onerror resume
-# wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.

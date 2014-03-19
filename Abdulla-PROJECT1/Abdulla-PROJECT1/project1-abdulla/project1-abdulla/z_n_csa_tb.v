@@ -24,13 +24,17 @@
 
 module z_n_csa_tb;
 
+	parameter k = 8;
+	parameter m = 4;
+	parameter n = k*m;
+
 	// Inputs
-	reg [7:0] a;
-	reg [7:0] b;
+	reg [n-1:0] a;
+	reg [n-1:0] b;
 	reg c_in;
 
 	// Outputs
-	wire [7:0] sum;
+	wire [n-1:0] sum;
 	wire c_out;
 
 	// Instantiate the Unit Under Test (UUT)
@@ -44,7 +48,7 @@ module z_n_csa_tb;
 
 	initial begin
 		
-		a=8'hFF;b=8'hFF;c_in=1;
+		a=135'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;b=135'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;c_in=1;
 		#700 $finish;
 
 	end

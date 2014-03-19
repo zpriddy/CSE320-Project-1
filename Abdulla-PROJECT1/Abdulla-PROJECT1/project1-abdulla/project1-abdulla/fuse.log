@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb_isim_beh.exe -prj C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb_beh.prj work.z_sqcsa_tb work.glbl 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb_isim_beh.exe" -prj "C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb_beh.prj" "work.z_sqcsa_tb" "work.glbl" 
 ISim P.28xd (signature 0xa0883be4)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -39,7 +39,8 @@ Compiling module z_sqcsa_default
 Compiling module z_sqcsa_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
 Compiled 21 Verilog Units
 Built simulation executable C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_sqcsa_tb_isim_beh.exe
-Fuse Memory Usage: 26480 KB
+Fuse Memory Usage: 26548 KB
 Fuse CPU Usage: 437 ms

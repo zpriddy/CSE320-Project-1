@@ -90,13 +90,17 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1395128025" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1395128025">
+    <transform xil_pn:end_ts="1395178526" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1395178526">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1395128511" xil_pn:in_ck="2481108931562416550" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1395128510">
+    <transform xil_pn:end_ts="1395179846" xil_pn:in_ck="2481108931562416550" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1395179846">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="a_full_adder.v"/>
       <outfile xil_pn:name="a_n_cba.v"/>
       <outfile xil_pn:name="a_n_cba_tb.v"/>
@@ -117,21 +121,26 @@
       <outfile xil_pn:name="z_sqcsa.v"/>
       <outfile xil_pn:name="z_sqcsa_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1395128025" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3080524936121128672" xil_pn:start_ts="1395128025">
+    <transform xil_pn:end_ts="1395179846" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3080524936121128672" xil_pn:start_ts="1395179846">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1395128025" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7949858531750133538" xil_pn:start_ts="1395128025">
+    <transform xil_pn:end_ts="1395179846" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7949858531750133538" xil_pn:start_ts="1395179846">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1395128025" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6507565167236879031" xil_pn:start_ts="1395128025">
+    <transform xil_pn:end_ts="1395178526" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6507565167236879031" xil_pn:start_ts="1395178526">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1395128511" xil_pn:in_ck="2481108931562416550" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1395128511">
+    <transform xil_pn:end_ts="1395179846" xil_pn:in_ck="2481108931562416550" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1395179846">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="a_full_adder.v"/>
       <outfile xil_pn:name="a_n_cba.v"/>
       <outfile xil_pn:name="a_n_cba_tb.v"/>
@@ -152,9 +161,15 @@
       <outfile xil_pn:name="z_sqcsa.v"/>
       <outfile xil_pn:name="z_sqcsa_tb.v"/>
     </transform>
-    <transform xil_pn:end_ts="1395128513" xil_pn:in_ck="2481108931562416550" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5404306445748450529" xil_pn:start_ts="1395128511">
+    <transform xil_pn:end_ts="1395179849" xil_pn:in_ck="2481108931562416550" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5404306445748450529" xil_pn:start_ts="1395179846">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -162,9 +177,13 @@
       <outfile xil_pn:name="z_sqcsa_tb_beh.prj"/>
       <outfile xil_pn:name="z_sqcsa_tb_isim_beh.exe"/>
     </transform>
-    <transform xil_pn:end_ts="1395128514" xil_pn:in_ck="-3605403088215466035" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7584537469804720510" xil_pn:start_ts="1395128513">
+    <transform xil_pn:end_ts="1395179849" xil_pn:in_ck="49662518531321012" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7584537469804720510" xil_pn:start_ts="1395179849">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="z_sqcsa_tb_isim_beh.wdb"/>

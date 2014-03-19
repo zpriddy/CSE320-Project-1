@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -7,18 +7,22 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/a_n_cba C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|a_n_cba.v</ClosedNode>
          <ClosedNode>/a_n_cba C:|Xilinx|project1-abdulla|a_n_cba.v</ClosedNode>
+         <ClosedNode>/a_n_rca C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|a_n_rca.v</ClosedNode>
          <ClosedNode>/a_n_rca C:|Xilinx|project1-abdulla|a_n_rca.v</ClosedNode>
          <ClosedNode>/csa_8_bit C:|Xilinx|project1-abdulla|rca.v</ClosedNode>
+         <ClosedNode>/z_n_csa C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_n_csa.v</ClosedNode>
+         <ClosedNode>/z_n_csa C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_sqcsa.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>a_setup (C:/Xilinx/project1-abdulla/a_setup.v)</SelectedItem>
+         <SelectedItem>a_n_cba (C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/a_n_cba.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000bc000000020000000000000000000000000200000064ffffffff000000810000000300000002000000bc0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000130000000020000000000000000000000000200000064ffffffff000000810000000300000002000001300000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>a_setup (C:/Xilinx/project1-abdulla/a_setup.v)</CurrentItem>
+      <CurrentItem>a_n_cba (C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/a_n_cba.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -26,13 +30,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ce000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ce0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -41,7 +45,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000032b000000040101000100000000000000000000000064ffffffff0000008100000000000000040000004200000001000000000000002400000001000000000000006600000001000000000000025f0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>a_full_adder.v</CurrentItem>
    </ItemView>
@@ -66,32 +70,45 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Check Syntax</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ce000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ce0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Check Syntax</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/a_n_cba_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|a_n_cba_tb.v</ClosedNode>
          <ClosedNode>/a_n_cba_tb C:|Xilinx|project1-abdulla|a_n_cba_tb.v/uut - a_n_cba</ClosedNode>
          <ClosedNode>/a_n_rca C:|Xilinx|project1-abdulla|a_n_rca.v</ClosedNode>
+         <ClosedNode>/a_n_rca_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|a_n_rca_tb.v</ClosedNode>
          <ClosedNode>/a_n_rca_tb C:|Xilinx|project1-abdulla|a_n_rca_tb.v</ClosedNode>
+         <ClosedNode>/csa_8_bit C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|rca.v</ClosedNode>
          <ClosedNode>/csa_8_bit C:|Xilinx|project1-abdulla|rca.v</ClosedNode>
+         <ClosedNode>/full_adder_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|full_adder_tb.v</ClosedNode>
          <ClosedNode>/full_adder_tb C:|Xilinx|project1-abdulla|full_adder_tb.v</ClosedNode>
+         <ClosedNode>/n_ripple_adder_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|n_ripple_adder_tb.v</ClosedNode>
          <ClosedNode>/n_ripple_adder_tb C:|Xilinx|project1-abdulla|n_ripple_adder_tb.v</ClosedNode>
+         <ClosedNode>/z_csa_stage_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_csa_stage_tb.v</ClosedNode>
+         <ClosedNode>/z_m_csa_stage_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_m_csa_stage_tb.v</ClosedNode>
+         <ClosedNode>/z_m_csa_stage_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_m_csa_stage_tb.v/uut - z_m_sca_stage/CSA - z_csa_stage</ClosedNode>
+         <ClosedNode>/z_n_cba_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_n_cba_tb.v</ClosedNode>
+         <ClosedNode>/z_n_csa C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_sqcsa.v</ClosedNode>
+         <ClosedNode>/z_n_csa_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_n_csa_tb.v</ClosedNode>
+         <ClosedNode>/z_n_csa_tb C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_n_csa_tb.v/uut - z_n_csa/CSAM - z_m_sca_stage/CSA - z_csa_stage</ClosedNode>
+         <ClosedNode>/z_sqcsa C:|Users|Zachary|Documents|GitHub|CSE320-Project-1|Abdulla-PROJECT1|Abdulla-PROJECT1|project1-abdulla|project1-abdulla|z_sqcsa.v/CSAM - z_m_sca_stage</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>csa_8_bit (C:/Xilinx/project1-abdulla/rca.v)</SelectedItem>
+         <SelectedItem>M1 - z_2_1_mux (C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_2_1_mux.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000112000000020000000000000000000000000200000064ffffffff000000810000000300000002000001120000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000144000000020000000000000000000000000200000064ffffffff000000810000000300000002000001440000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>csa_8_bit (C:/Xilinx/project1-abdulla/rca.v)</CurrentItem>
+      <CurrentItem>M1 - z_2_1_mux (C:/Users/Zachary/Documents/GitHub/CSE320-Project-1/Abdulla-PROJECT1/Abdulla-PROJECT1/project1-abdulla/project1-abdulla/z_2_1_mux.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -99,27 +116,27 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Utilities</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Utilities</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ce000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ce0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
 </Project>

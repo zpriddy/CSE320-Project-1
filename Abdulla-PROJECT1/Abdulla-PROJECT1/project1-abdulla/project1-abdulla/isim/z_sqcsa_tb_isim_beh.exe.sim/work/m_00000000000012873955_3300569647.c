@@ -166,7 +166,7 @@ LAB2:    t2 = (t0 + 1848U);
     t8 = *((char **)t7);
     xsi_vlog_OrGate(t8, 2, t3, t4);
     t9 = (t0 + 4552);
-    xsi_driver_vfirst_trans_delayed(t9, 0, 0, 2000LL, 0);
+    xsi_driver_vfirst_trans(t9, 0, 0);
     t10 = (t0 + 4280);
     *((int *)t10) = 1;
 

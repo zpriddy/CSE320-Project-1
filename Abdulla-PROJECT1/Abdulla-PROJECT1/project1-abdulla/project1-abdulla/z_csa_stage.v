@@ -32,9 +32,5 @@ module z_csa_stage(sum,c_out,a,b,c_in);
 	// MUX - Starts at the same time as the FA so no delay
 	z_2_1_mux M1(sum,sum_r[0],sum_r[1],c_in);
 	z_2_1_mux M2(c_out,c_out_r[0],c_out_r[1],c_in);
-	
-	
-	
-	
 
 endmodule

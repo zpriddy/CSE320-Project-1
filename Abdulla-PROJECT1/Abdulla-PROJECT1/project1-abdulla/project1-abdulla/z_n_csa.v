@@ -19,9 +19,9 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module z_n_csa(sum,c_out,a,b,c_in);
-	parameter k = 2;
+	parameter k = 8;
 	parameter m = 4;
-	parameter n = n*m;
+	parameter n = k*m;
 	
 	
 	input [n-1:0] a, b;

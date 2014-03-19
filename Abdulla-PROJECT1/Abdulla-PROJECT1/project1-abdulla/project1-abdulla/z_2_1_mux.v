@@ -27,7 +27,7 @@ module z_2_1_mux(out,a,b,sel);
 	not not1(sel_,sel);
 	and #1 and1(a1,a,sel_);
 	and #1 and2(b1,b,sel);
-	or #2 or1(out,a1,b1);
+	or or1(out,a1,b1);
 	
 
 endmodule
